@@ -1,3 +1,4 @@
+
 package com.swe.dao;
 
 
@@ -7,7 +8,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 import com.swe.models.User;
-
 public class LoginDao 
 {
     public String authorizeLogin(User loginBean) //create authorizeLogin()function
