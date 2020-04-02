@@ -129,9 +129,9 @@ public class UserController extends HttpServlet {
 
         @RequestMapping("/List")
         public String[] listallusers() {
-            String SQL = "select * from Student";
-            String[] students = jdbcTemplateObject.query(SQL, new StudentMapper());
-            return students;
+            String SQL = "select * from users";
+            String[] user = jdbcTemplateObject.query(SQL, new listallusers());
+            return user;
         }
 
 }
