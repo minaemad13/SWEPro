@@ -52,7 +52,7 @@ public class UserController extends HttpServlet {
 	        {
 	            String username=request.getParameter("username");
 	            String password=request.getParameter("password");
-	            String email=request.getParameter("email");  //get all textbox name from register.jsp page
+	            String email=request.getParameter("email");  //get all TextBox name from register.jsp page
 	           
 	            
 	            User registerBean=new User(); //this class contain  seeting up all received values from register.jsp page to setter and getter method for application require effectively
