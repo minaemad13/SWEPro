@@ -126,12 +126,12 @@ public class UserController extends HttpServlet {
 	        return "fail";
 	    }
 
-/*
+
         @RequestMapping("/List")
-        public List<User> listUser() {
+        public String[] listallusers() {
             String SQL = "select * from Student";
-            List<User> students = jdbcTemplateObject.query(SQL, new StudentMapper());
+            String[] students = jdbcTemplateObject.query(SQL, new StudentMapper());
             return students;
         }
-*/
+
 }
